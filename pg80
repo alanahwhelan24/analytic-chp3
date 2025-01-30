@@ -1,0 +1,50 @@
+
+# MIN AND MAX VALUES
+
+# EXAMPLE 1
+# myList = [1, 19,27, 8, 5, 9]   
+# myList.sort()
+# minValue = myList[0]   # THE FIRST VALUE
+# maxValue = myList[-1] # THE LAST VALUE
+# print(minValue)  
+# print(maxValue)
+
+# EXAMPLE 2
+# myList = [1, 15, 27, 8, 5, 9]
+# minValue = min(myList)
+# maxValue = max(myList)
+# print(minValue)
+# print(maxValue)
+
+# EXAMPLE 3
+# myList = [1, 6, 23, 16, 9]
+# minValue = myList[0]
+# maxValue = myList[0]
+# for item in myList:
+#     if item < minValue:
+#         minValue = item
+#     if item > maxValue:
+#         maxValue = item
+# print(minValue)
+# print(maxValue)
+
+# MEAN
+
+# EXAMPLE 1 (manuel mode)
+# myList = [1, 12, 19, 43, 21, 8]
+# sumValues = 0
+# for item in myList:
+#     sumValues += item
+# average = sumValues/ len(myList)
+# print(average)
+
+# EXAMPLE 2 (manual mode 2)
+# myList = [2, 4, 23, 12, 7, 9]
+# avredge = sum(myList)/ len(myList)
+# print(avredge)
+
+# EXAMPLE 3 (statistics mode)
+# import statistics
+# myList = [2, 7, 13, 26, 8]
+# avredge = statistics.mean(myList)
+# print(avredge)
