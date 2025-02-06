@@ -1,0 +1,42 @@
+# #EXAMPLE = PLOTTING GRAPHS
+# import matplotlib.pyplot as plt
+# myList = [3, 5, 7, 13, 14, 7, 3]
+# plt.plot(myList)
+# plt.show()
+# 
+# 
+# #EXAMPLE = LABELING A GRAPH
+# import matplotlib.pyplot as plt
+# numBS= [1, 2.5, 4, 3, 2.5, 2]
+# plt.plot(numBS)
+# plt.title("brothers and sisters")
+# plt.xlabel("list index")
+# plt.ylabel("num brothers and sisters")
+# plt.show()
+
+
+# EXAMPLE WORKING WITH X AND Y AXES
+# import matplotlib.pyplot as plt
+# numBS = [1, 2.5, 4, 3, 2.5,]
+# names =["joe blogs", "margret bags", "claire whelan", "mike mc'Carthy", "laura marks"]
+# plt.plot(names, numBS)   #NAMES = X AXIS  ,   NUMBS = Y AXIS
+# plt.title("brothers and sisters")
+# plt.xlabel("student")
+# plt.ylabel("num brothers and sisters")
+# plt.show()
+
+#EXAMPLE BAR CHART
+# import matplotlib.pyplot as plt
+# numBS =[3, 4, 6, 9]
+
+# FIND THE LENGTH OF A LIST
+lenList= len(numBS)
+print(lenList)
+numBS = [1, 2.5, 4, 3, 2.5, 7]
+ # FIND NUMBER OF VALUES IN A LIST
+sumList = sum(numBS)
+print(sumList)
+
+# AVREDGE IN A LIST
+meanList= sumList/lenList
+print(meanList)
